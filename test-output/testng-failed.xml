@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="Ss2774"/>
+    <parameter name="username" value="SelvaSangeetha"/>
+    <classes>
+      <class name="com.flipkart.stepdefinitions.LoginValidation">
+        <methods>
+          <include name="startsAt"/>
+          <include name="endsAt"/>
+          <include name="bc"/>
+          <include name="search"/>
+          <include name="ac"/>
+        </methods>
+      </class> <!-- com.flipkart.stepdefinitions.LoginValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
